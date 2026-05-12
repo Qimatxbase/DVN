@@ -43,22 +43,6 @@ def render_decision_summary_tab(
         """,
         unsafe_allow_html=True,
     )
-
-    st.markdown(
-        """
-        <div class="action-box">
-        <h3>Recommended dashboard story</h3>
-        <ol>
-            <li><b>Start with overall burden:</b> show how many crashes, fatalities, injuries, and school-zone cases exist in 2024 onward data.</li>
-            <li><b>Move to place-based risk:</b> identify LGAs with the highest crash count and check school-zone involvement.</li>
-            <li><b>Then inspect timing:</b> test whether crashes concentrate during weekday commute and school travel windows.</li>
-            <li><b>Finally check external context:</b> weather, lighting, surface, speed limit, and location type can guide targeted interventions.</li>
-        </ol>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
     st.markdown(
         """
         <div class="insight-box">
