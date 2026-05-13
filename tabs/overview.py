@@ -132,13 +132,3 @@ def render_overview_tab(filtered_df: pd.DataFrame) -> None:
             )
 
             st.plotly_chart(fig_type, use_container_width=True)
-
-    st.markdown(
-        """
-        <div class="insight-box">
-        <b>How to read this section:</b> Use monthly and seasonal views instead of a yearly trend because the filtered data keeps 2024 onward only.
-        The overview gives the broad crash burden before moving into place-based and time-based risk.
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
